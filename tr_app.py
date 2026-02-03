@@ -8,7 +8,6 @@ class YesNoUnknown(Enum):
     UNKNOWN = "Unknown"
 
 class Severity(Enum):
-    NONE = "None"
     MILD = "Mild"
     MODERATE = "Moderate"
     SEVERE = "Severe"
