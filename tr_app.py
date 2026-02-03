@@ -18,7 +18,7 @@ class Mechanism(Enum):
     SECONDARY_FUNCTIONAL = "Secondary (functional)"
 
 # --- 2. THE FRONT END (The "Face") ---
-st.title("Concomittant Tricuspid Repaid Evaluator")
+st.title("Concomittant Tricuspid Repair Evaluator")
 st.write("Fill out the clinical data below to see the ESC Guideline recommendations.")
 
 # We use columns to make it look organized
