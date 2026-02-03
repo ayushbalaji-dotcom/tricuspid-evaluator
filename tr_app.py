@@ -18,7 +18,7 @@ class Mechanism(Enum):
     SECONDARY_FUNCTIONAL = "Secondary (functional)"
 
 # --- 2. THE FRONT END (The "Face") ---
-st.title("Tricuspid Regurgitation Evaluator")
+st.title("Concomittant Tricuspid Repaid Evaluator")
 st.write("Fill out the clinical data below to see the ESC Guideline recommendations.")
 
 # We use columns to make it look organized
@@ -88,7 +88,7 @@ elif tr_sev == Severity.MODERATE:
 elif tr_sev == Severity.MILD and tr_mech == Mechanism.SECONDARY_FUNCTIONAL and tr_ann == YesNoUnknown.YES:
     st.warning("Class 2b: Concomitant TR Repair may be considered")
 else:
-    st.error("Class 1c: Careful Evaluation / MDT Recommended")
+    st.error("Class 1c: Careful Evaluation / MDT Recommended prior to consideration of intervention")
 
 # Totals
 total_plus = sum(1 for s in scores_list if s == 1)
